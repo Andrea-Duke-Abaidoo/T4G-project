@@ -1,19 +1,24 @@
-.nav-container{
+/* .nav-container{ */
 /* background-color: white; */
-height: 100vh;
+/* height: 100vh;
 width: 100%;
-background-image: url(../images/home\ backgroung.jpeg);
-background-size: cover;
-background-repeat: no-repeat;
 display: flex;
 justify-content: space-evenly;
-}
+} */
  img{
-    width: 50px;
-    height: 40px;
-    margin: 20px;
-    margin-left: -50px;
+    width: 90px;
+    height: 60px;
+    /* margin: 20px; */
+    margin-left: -250px;
+    margin-bottom: 20px;
 
+}
+body{
+    background-image: url(../images/home\ backgroung.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300vh;
 }
 
 .header {
@@ -38,4 +43,34 @@ nav ul{
 }
 .header a{
     text-decoration: none;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.hello{
+    color: white;
+    margin-left: 60px;
+    margin-top: 100px;
+    width: 40%;
+
+
+}
+
+.perfume1{
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.ada{
+    display: flex;
+    padding: 50px;
+    
+    
+}
+.notes{
+    color: white;
+    font-size: 40px;
 }
