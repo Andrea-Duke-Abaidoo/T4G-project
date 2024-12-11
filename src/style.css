@@ -9,23 +9,21 @@ justify-content: space-evenly;
     width: 90px;
     height: 60px;
     /* margin: 20px; */
-    margin-left: -250px;
+    margin-left: -100px;
     margin-bottom: 20px;
 
 }
-body{
+.home_background{
     background-image: url(../images/home\ backgroung.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300vh;
+    height: 200vh;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    /* background-color: white;
-    margin: 20px; */
+    justify-content: space-around
 }
 
 nav ul{
@@ -39,21 +37,43 @@ nav ul{
   list-style: none;
   border-radius: 10px;
   height: 20px;
-  
+  box-shadow: #743535; 
 }
+
+.active{
+  background-color: rosybrown;
+ border-radius: 7px;
+ width: 100px;
+}
+
+.allhead{
+  display: flex;
+
+}
+
+
 .header a{
     text-decoration: none;
+
 }
 .logo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    background-color: #8c6a6a;
+    border-radius: 50%;
     width: 80px;
     height: 80px;
-    margin-bottom: 30px;
+    margin: 0 auto 15px;
+    float: left;
+    gap: 80px;
 }
 .hello{
     color: white;
     margin-left: 60px;
     margin-top: 100px;
     width: 40%;
+    
 
 
 }
@@ -72,8 +92,306 @@ nav ul{
 }
 .notes{
     color: white;
-    font-size: 40px;
-}
-.footer{
+    font-size: 30px;
+
+
+    }
     
+ .notes2{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  
+ } 
+ 
+
+
+/* footer */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color:  #8c6a6a;
+  color: #fff;
+
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); 
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+/* Left Section: Contact Form */
+.contact-form {
+  grid-column: span 6; 
+  padding: 20px;
+  background-color:  #8c6a6a; 
+  border-radius: 8px;
+  
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  
+}
+
+.contact-form input[type="submit"] {
+  background-color: #553030;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #8c6a6a;
+}
+
+/* Right Section: Sitemap & Details */
+.sitemap {
+  grid-column: span 6;
+  padding: 20px;
+  background-color:   #8c6a6a; 
+  border-radius: 8px;
+  
+  
+}
+
+.sitemap .logo-div{
+  margin: 0 auto;
+  width: 30%;
+  float: right;
+}
+
+.sitenavh2{
+  margin-bottom: 5px;
+  width:100%;
+ margin-left: 30px;
+  text-align: left;
+  padding: left;
+}
+.sitenav{
+  text-align: left;
+
+}
+.sitenavp{
+  margin-left: 30px;
+  text-align: left;
+  padding-left: 0px;
+ /* margin-right: 320px;*/
+  width: 100%;
+}
+
+.sitemap .logo {
+  background-color:  #8c6a6a;
+  border-radius: 50%
+
+}
+.allsite{
+  display: flex;
+  gap: 100px;
+}
+
+
+.contact-info{
+  margin: 0 auto;
+  width: 50%;
+  float: right;
+}
+
+./* sitemap ul {
+ text-align: center;
+  padding: 0;
+  margin-left: 100px;
+}
+
+.sitemap ul li {
+  margin: 10px 0;
+  margin-right: 380px;
+  text-align: left; 
+  }*/
+
+.sitemap .contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+/* Footer Section */
+.footer1{
+  text-align: justify;
+  margin-top: 30px;
+  font-size: 12px;
+  width: 100%;
+  padding-left: 500px;
+  padding-top: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.aboutus_background{
+  background-image: url(../images/aboutus\ backgroung.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+  border: none;
+  outline: none;
+
+}
+
+
+/* featurepage */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rosybrown;
+  height: 200vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.features h1 {
+  font-size: 24px;
+  color: white;
+}
+
+.features p {
+  font-size: 16px;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  width: 100vh;
+  max-width: 200px;
+  border-radius: 8px;
+  display: block;
+  margin: 40px auto;
+  height: 50vh;
+  gap: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.grid-item p {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #743535;
+}
+.features_background{
+  background-color: rosybrown;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+}
+
+ /* signup */
+.signup_background{
+  background-image: url(../images/signup\ background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+}
+
+
+
+
+
+ /* signin */
+.signin_background{
+  background-image: url(../images/ribbin\ 1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+  width: 200vh;
+
+
+ }
+
+
+
+ /* logout */
+ .logout_background{
+  background-image: url(../images/logout\ image.png);
+  height: 200vh;
+
+
+ }
+
+
+
+
+
+
+ /* Contactus */
+ .contactus_background{
+  background-image: url(../images/home\ backgroung.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+ }

@@ -7,13 +7,14 @@
     <script src="https://kit.fontawesome.com/9bb5df3d41.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/style.css">
 </head>
-<body>
+<body class="home_background">
+  <div class="allheads">
     <header class="nav-container">
-        
+      <img src="images/logo.jpg" alt=""class="logo">
         <nav class="header"> 
             <ul>
-                <li><img src="images/logo.jpg" alt=""class="logo"></li>
-               <li> <a href="index.html">Home</a></li>
+              
+               <li class="active"> <a href="index.html">Home</a></li>
                <li><a href="pages/aboutus.html">About us</a></li>
                <li> <a href="pages/features.html">Features</a></li>
                <li><a href="pages/signup.html">Signup</a></li>
@@ -22,7 +23,7 @@
                <li><a href="pages/contactus.html">Contact Us</a></li>
             </ul>
         </nav>
-
+      </div>
     </header>
 
     <div class="ada">
@@ -41,7 +42,47 @@
 
 </footer>
 
+<div class="container">
 
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your Name">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" placeholder="Your Email">
+      <label for="message">Your Message</label>
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <input type="submit" value="Submit">
+    </div>
 
+    <div class="sitemap">
+      <div class="logo-div">
+        <img src="images/logo.jpg" alt=""class="logo">
+      </div>
+        <h2 class="sitenavh2">Sitemap</h2>
+        <p class="sitenavp">All our pages</p>
+        <div class="allsite">
+          <div>
+      <ul class="sitenav"> 
+      <li>Home</li>
+        <li>About Us</li>
+        <li>Features</li>
+        <li>Contact Us</li>
+        <li>Login</li>
+        <li>Signup</li>
+        <li>Logout</li>
+      </ul>
+    </div>
+        <div class="details">
+          <p><a href="https://www.call.com"><i class="fa-solid fa-phone" style="color: #0a0a0a;"></i></a ><strong>Phone:</strong> +233240855171</p>
+          <p><a href="https://www.email.com"><i class="fa-solid fa-envelope" style="color: #0c0c0d;"></i></a><strong>Email:</strong> @gmail.com</p>
+        </div>
+      </div>
+  </div>
+<footer>
+  <div class="footer1">
+    Copy right 2024 All reserved ADA Perfumes
+  </div>
+</footer>
 </body>
 </html>
