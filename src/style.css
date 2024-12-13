@@ -96,14 +96,6 @@ nav ul{
 
 
     }
-    
- .notes2{
-  color: black;
-  font-size: 18px;
-  text-align: center;
-  
- } 
- 
 
 
 /* footer */
@@ -213,9 +205,11 @@ body, html {
 
 
 .contact-info{
-  margin: 0 auto;
+  margin-right: 50px;;
   width: 50%;
-  float: right;
+  position: relative;
+  display: flex;
+  
 }
 
 ./* sitemap ul {
@@ -247,12 +241,13 @@ body, html {
   padding-top: 40px;
 }
 
+
+/* about us section*/
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
 }
-
 
 .aboutus_background{
   background-image: url(../images/aboutus\ backgroung.jpeg);
@@ -265,6 +260,20 @@ body {
 
 }
 
+.notes2{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100px;
+  font-display: 100px;
+  
+ } 
+
+.ribbin1{
+  width: 230vh;
+  height: 100vh;
+  padding-top: 100px;
+}
 
 /* featurepage */
 body {
@@ -303,7 +312,8 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 4fr);
+  columns: 8;
   gap: 20px;
   justify-content: space-around;
   margin: 0 auto;
@@ -356,13 +366,63 @@ body {
   height: 200vh;
 }
 
+/* signup page */
+.signupbody {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+  background: url('your-image-path.jpg') no-repeat center center/cover;
+}
 
+.signup-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 55%;
+  height: 600px;
+  margin: 200px auto;
+}
+
+.signup-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 18px 0;
+  height: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #45a049;
+}
 
 
 
  /* signin */
 .signin_background{
-  background-image: url(../images/ribbin\ 1.jpeg);
+  background-color: white;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
