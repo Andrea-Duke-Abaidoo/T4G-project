@@ -51,7 +51,6 @@ nav ul{
 
 }
 
-
 .header a{
     text-decoration: none;
 
@@ -116,6 +115,8 @@ body, html {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 7%;
+
   
 }
 
@@ -234,11 +235,12 @@ body, html {
 /* Footer Section */
 .footer1{
   text-align: justify;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 12px;
   width: 100%;
   padding-left: 500px;
-  padding-top: 40px;
+  padding-top: 0px;
+  padding-bottom: 2px;
 }
 
 
@@ -397,7 +399,7 @@ body {
   padding: 18px 0;
   height: 100%;
   margin: 10px 0;
-  border: 1px solid #ccc;
+  border: 1px solid brown;
   border-radius: 5px;
   font-size: 16px
 }
@@ -407,42 +409,137 @@ body {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: brown;
   color: white;
   font-size: 16px;
   cursor: pointer;
 }
 
 .signup-form button:hover {
-  background-color: #45a049;
+  background-color: rosybrown;
+}
+.signupn{
+  color: brown;
 }
 
 
 
  /* signin */
 .signin_background{
-  background-color: white;
+  background-color: rosybrown;
   background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 200vh;
-  width: 200vh;
-
-
+  width: 230vh;
  }
+
+.ribbon2{
+  width: 230vh;
+  height: 100vh;
+  padding-bottom: 100px;
+ }
+ .signinform_container{
+  margin: 20%;
+  font-family: Arial,sans-serif;
+  background-color: rosybrown;
+  text-align: center;
+  margin: 100%;
+  
+}
+.form-container {
+  background-color: #a94442;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 8px;
+  width: 100px;
+  box-shadow: 0 4px 6px rgba(143, 82, 82, 0.1);
+  color: #842029;
+}
+
+form input {
+  width: 50%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  width: 52%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #842029;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form a , .signin_a{
+  display: block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+ 
 
 
 
  /* logout */
  .logout_background{
-  background-image: url(../images/logout\ image.png);
+  background-color: rosybrown;
   height: 200vh;
 
-
  }
-
-
+ .logoutform_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 100%;
+  
+}
+ .limg{
+width: 100vh;
+height: 85vh;
+align-items: center;
+  
+ }
+ .form_box{
+  background-color: #b86e6e;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 80px;
+  box-shadow: #553030;
+ }
+ .logout_button{
+  width: 95%;
+  cursor: pointer;
+ }
+ .logout_button:hover {
+  background-color: #8c6a6a;
+ }
+ input{
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+font-size: 12px;
+box-sizing: border-box;
+ }
+ label{
+  width: 100%;
+padding: 10px;
+font-size: 16px;
+display: block;
+margin-bottom: 2px;
+ }
+ 
 
 
 
@@ -455,3 +552,57 @@ body {
   background-position: center;
   height: 200vh;
  }
+ .phonecall{
+  max-height: 800px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  max-width: 800px
+  
+ }
+ .c1{
+  font-size: 2.5em;
+  margin-bottom: 80px;
+ }
+ .note3{
+  margin-top: 80px;
+  font-size: 30px;
+ }
+ .buttons div{
+  text-align: center;
+ }
+ .buttons{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 0 auto 15px;
+ }
+.buttons button :hover{
+  background-color: brown;
+
+}
+.buttons p{
+  margin-top: 10px;
+  font-size: 0px;
+  color: white;
+
+}
+
+.buttons button{
+  padding: 15px 30px;
+  border-radius: 200px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  background-image: url(../images/Hand\ Streched\ Dollar\ Comments\ -\ Dollar\ Icon\ Png\ -\ Free\ Transparent\ PNG\ Download\ -\ PNGkey.jpeg);
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 50vh;
+  height: 30vh;
+  
+}
+
+
+
+
+
+ 
