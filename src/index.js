@@ -5,3 +5,4 @@ function handlePlaceOrder() {
   function handleSalesInquiry() {
     alert("Redirecting to Sales Inquiry...");
   }
+
