@@ -570,3 +570,64 @@ margin-bottom: 2px;
   width: 50vh;
   height: 30vh;
 }
+
+/* home js*/
+#content {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+#readMoreBtn {
+  position: relative; /* Keeps the button positioned within the content area */
+  bottom: -10px; /* Adjusts button position slightly */
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#readMoreBtn:hover {
+  background-color: rosybrown;
+}
+
+
+
+/* aboutus js*/
+
+
+/* features js*/
+.features:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.grid-item img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* signup js*/
+
+
+
+/* sigin js*/
+
+
+
+
+/* logout js*/
+
+
+
+
+/* contactus js*/
+
+
+
+
