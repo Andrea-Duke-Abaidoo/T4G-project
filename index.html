@@ -25,12 +25,7 @@
         </nav>
       </div>
     </header>
-    <script>
-      
-        window.onload = function() {
-          alert("Hello, welcome to ADA  PERFUMES!");
-        };
-      </script>
+
 
     <div class="ada">
         <h1 class="hello">Hello, welcome to <br> A D A  P E R F U M E S </h1>
@@ -39,10 +34,17 @@
    <div class="notes"><p>A comprehensive database of perfumes offering detailed notes,user review fragrance.
     Great for exploring perfumes,learning about different ingredients, and discovering new scents.</p></div>
   
-      <div id="content">
-        <P><button id="readMoreBtn" onclick="toggleReadMore()">Read More</button></P>
-      </div>
+  <div>
+      <div> <button class="open">Read more</button></div>
+     <div> <img class="image" src="images/rm.png" alt=""></div>
+       <div><button class=" close">Close page</button></div>
+  </div>
+   
+  
+     
 
+  <script src="src/index.js"></script>
+  
 
 
       <footer>
@@ -55,7 +57,7 @@
             <input type="email" id="email" placeholder="Your Email">
             <label for="message">Your Message</label>
             <textarea id="message" placeholder="Your Message"></textarea>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="sbtn">
           </div>
 
           <div class="footer-column sitemap">

@@ -74,6 +74,10 @@ nav ul{
     margin-left: 30px;
     padding-top: 30px;
 }
+.perfume1:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
 .ada{
     display: flex;
@@ -458,6 +462,9 @@ form a , .signin_a{
   background-color: rosybrown;
   height: 200vh;
  }
+ 
+  
+
 
  .logoutform_container{
   display: flex;
@@ -572,38 +579,62 @@ margin-bottom: 2px;
 }
 
 /* home js*/
-#content {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 20px;
+div{
+  margin: 10px auto;
+  text-align: center;
+}
+.image{
+  display: none;
+  width: 150vh;
+  height: 80vh;
+  padding-left: 20%;
+  
 }
 
-#readMoreBtn {
-  position: relative; /* Keeps the button positioned within the content area */
-  bottom: -10px; /* Adjusts button position slightly */
-  background-color: whitesmoke;
-  color: black;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-#readMoreBtn:hover {
+.open{
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 8px;
   background-color: rosybrown;
+  color: black;
+  margin: 10px;
+  
 }
+
+.close{
+  display: none;
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rosybrown;
+  color: black;
+  margin: 10px;
+}
+
 
 
 
 /* aboutus js*/
+.abus:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
 
 
 /* features js*/
 .features:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- 
+}
+
+.search-bar:hover{
+   transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .grid-item img:hover {
@@ -613,7 +644,10 @@ margin-bottom: 2px;
 
 
 /* signup js*/
-
+.signupn:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
 
 /* sigin js*/
@@ -627,7 +661,9 @@ margin-bottom: 2px;
 
 
 /* contactus js*/
-
-
+.c1:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
 
