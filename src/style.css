@@ -406,6 +406,7 @@ body {
   width: 221.8vh;
   height: 100vh;
   padding-bottom: 0px;
+  padding-top: 0px;
  }
 
  .signinform_container{
@@ -525,11 +526,12 @@ margin-bottom: 2px;
   background-position: center;
   height: 200vh;
  }
- .phonecall{
+ .phonecall:hover{
   max-height: 800px;
-  margin-bottom: 20px;
-  margin-top: 100px;
-  max-width: 800px
+  max-width: 800px;
+  
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
 
  .c1{
@@ -585,10 +587,11 @@ div{
 }
 .image{
   display: none;
-  width: 150vh;
-  height: 80vh;
-  padding-left: 20%;
-  
+  width: 222vh;
+  height: 150vh;
+  border-radius: 40%;
+
+
 }
 
 .open{
@@ -610,6 +613,8 @@ div{
   color: black;
   margin: 10px;
 }
+
+
 
 
 
@@ -643,6 +648,9 @@ div{
 }
 
 
+
+
+
 /* signup js*/
 .signupn:hover{
   transform: translateY(-10px);
@@ -651,12 +659,27 @@ div{
 
 
 /* sigin js*/
+.si:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.si{
+  color: whitesmoke;
+}
 
-
+.sibtn:hover{
+background-color: rgb(119, 96, 96);
+}
 
 
 /* logout js*/
-
+.lp:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.lp{
+  color: whitesmoke;
+}
 
 
 

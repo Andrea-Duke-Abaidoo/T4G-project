@@ -10,7 +10,6 @@ function openImage(){
 }
 open.addEventListener("click", openImage)
 
-
 let close = document.querySelector(".close")
 function closeImage(){
     let image = document.querySelector(".image")
@@ -60,10 +59,6 @@ notes.addEventListener("mouseenter", changeNotes)
   
 
 
-
-
-
-
 /* aboutus js*/
 
 
@@ -79,7 +74,12 @@ notes.addEventListener("mouseenter", changeNotes)
 
 
 /* signin js*/
-
+let sibtn = document.querySelector(".sibtn")
+function changeSign(){
+sibtn.style.color = "white"
+}
+sibtn.addEventListener("mouseenter", changeSign)
+ 
 
 
 
@@ -95,3 +95,37 @@ function handlePlaceOrder() {
   function handleSalesInquiry() {
     alert("Redirecting to Sales Inquiry...");
   }
+  function handlePlaceOrder() {
+    const choice = prompt(
+      "Welcome! Please choose an option to place an order:\n\n" +
+      "1. Perfume Brands\n" +
+      "2. Price Ranges\n\n" +
+      "Enter the number of your choice (1 or 2):"
+    );
+  
+    if (choice === "1") {
+      alert("Here are the available perfume brands:\n\n1. Chanel\n2. Dior\n3. Gucci\n4. Versace");
+    } else if (choice === "2") {
+      alert("Here are the price ranges:\n\n1. $50 - $100\n2. $101 - $200\n3. $201 - $300\n4. $301 and above");
+    } else {
+      alert("Invalid choice. Please try again.");
+    }
+  }
+  
+
+  function handleSalesInquiry() {
+    alert("Thank you for your interest in our perfumes! We are happy to assist you with any questions about our products.");
+
+
+    const perfumeInfo = "Our perfumes are crafted with high-quality, natural ingredients. " +
+                        "They come in a variety of fragrances to suit your preferences, including floral, woody, and citrus scents. " +
+                        "We also offer free samples for first-time customers. Don't miss out on exclusive discounts and special offers available on our website.";
+
+    alert(perfumeInfo);
+alert("Thank you for contacting us! If you have any further questions, feel free to reach out anytime.");
+}
+
+
+
+
+  
