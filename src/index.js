@@ -33,10 +33,9 @@ hello.innerHTML = "We are glad to have you here, enjoy your shopping!🤩"
 hello.style.color = "white"
 }
 hello.addEventListener("mouseenter", changeContent)
+
   
 alert("Hello, welcome to our website")
-
-
 let username = prompt("Enter your name");
 if (username){
     alert(`Hi ${username}, you are welcome to ADA PERFUMES`);
@@ -57,21 +56,12 @@ notes.style.color = "white"
 }
 notes.addEventListener("mouseenter", changeNotes)
   
-
-
 /* aboutus js*/
-
 
 
 /* features js*/
 
-  
-
-
-
 /* signup js*/
-
-
 
 /* signin js*/
 let sibtn = document.querySelector(".sibtn")
@@ -79,13 +69,8 @@ function changeSign(){
 sibtn.style.color = "white"
 }
 sibtn.addEventListener("mouseenter", changeSign)
- 
-
-
 
 /* logout js*/
-
-
 
 /* contactus js*/
 function handlePlaceOrder() {
